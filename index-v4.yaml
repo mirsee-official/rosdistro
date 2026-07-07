@@ -4,7 +4,9 @@
 ---
 distributions:
   humble:
-    distribution: [humble/distribution.yaml]
+    distribution: 
+      - https://raw.githubusercontent.com/ros/rosdistro/master/humble/distribution.yaml
+      - humble/distribution.yaml
     distribution_cache: http://repo.ros2.org/rosdistro_cache/humble-cache.yaml.gz
     distribution_status: active
     distribution_type: ros2

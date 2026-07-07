@@ -14,7 +14,7 @@ repositories:
     release:
       packages:
       - mh3_description
-      - mh3_msg
+      - mh3_msgs
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_common
