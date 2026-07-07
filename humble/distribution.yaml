@@ -17,6 +17,6 @@ repositories:
       - mh3_msg
       tags:
         release: release/humble/{package}/{version}
-      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird_release
+      url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_common
 type: distribution
 version: 1
