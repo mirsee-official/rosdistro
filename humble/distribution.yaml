@@ -19,4 +19,4 @@ repositories:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_common
 type: distribution
-version: 1
+version: 2
