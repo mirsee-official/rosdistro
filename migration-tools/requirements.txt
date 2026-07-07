@@ -1,5 +1,0 @@
-bloom>=0.14.2
-pygithub>=2.9.1
-rosdistro>=1.0.1
-rosdep>=0.26.0
-pyyaml>=6.0.3
