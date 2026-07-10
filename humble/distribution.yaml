@@ -101,7 +101,7 @@ repositories:
     doc:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/ROS-TCP-Endpoint
-      version: main
+      version: mirsee
     release:
       packages:
       - ROS-TCP-Endpoint
@@ -114,7 +114,7 @@ repositories:
     doc:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/ros2_jetson_stats
-      version: main
+      version: mirsee
     release:
       packages:
       - ros2_jetson_stats
@@ -128,7 +128,7 @@ repositories:
     doc:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/zed-ros2-wrapper
-      version: main
+      version: mirsee
     release:
       packages:
       - zed-ros2-wrapper
