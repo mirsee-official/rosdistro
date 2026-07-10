@@ -24,7 +24,6 @@ repositories:
       url: https://dev.azure.com/mirsee/Thunderbird/_git/mh3_common
       version: main
     status: maintained
-
   mh3_desktop:
     doc:
       type: git
@@ -36,12 +35,11 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_desktop
-      version: 0.0.0
+      version: 0.0.1-3
     source:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_desktop
       version: main
     status: maintained
-
 type: distribution
 version: 2
