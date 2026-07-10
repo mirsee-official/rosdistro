@@ -43,7 +43,7 @@ repositories:
       version: main
     status: maintained
 
-    mh3_robot:
+  mh3_robot:
     doc:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_robot
