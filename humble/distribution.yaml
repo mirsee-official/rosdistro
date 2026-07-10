@@ -24,5 +24,109 @@ repositories:
       url: https://dev.azure.com/mirsee/Thunderbird/_git/mh3_common
       version: main
     status: maintained
+
+  mh3_simulation:
+    doc:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_simulation
+      version: main
+    release:
+      packages:
+      - mh3_mock_bringup
+      - mh3_sim_bringup
+      - mh3_hardware_interface_sim
+      - mh3_hardware_interface_mock
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_simulation
+      version: 0.0.0
+
+  mh3_desktop:
+    doc:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_desktop
+      version: main
+    release:
+      packages:
+      - mh3_viz
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_desktop
+      version: 0.0.0
+
+  mh3_robot:
+    doc:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_robot
+      version: main
+    release:
+      packages:
+      - mh3_diagnostics
+      - mh3_teleop
+      - mh3_navigation
+      - mh3_smc
+      - mh3_task_manager_user
+      - mh3_control
+      - mh3_task_manager
+      - mh3_bringup
+      - mh3_recording_manager
+      - mh3_perception
+      - mh3_speech
+      - mh3_moveit_config
+      - mh3_chest_display
+      - mh3_firmware_update
+      - mh3_arm_planners
+      - mh3_audio
+      - mh3_hardware_interface
+      - mh3_planners
+      - gyems_driver
+      - bio_ik
+      - canbus_driver
+      - roboteq_driver
+      - ethercat_driver_ros2
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_robot
+      version: 0.0.0
+
+  ROS-TCP-Endpoint:
+    doc:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/ROS-TCP-Endpoint
+      version: main
+    release:
+      packages:
+      - ROS-TCP-Endpoint
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/ROS-TCP-Endpoint
+      version: 0.0.0
+
+  ros2_jetson_stats:
+    doc:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/ros2_jetson_stats
+      version: main
+    release:
+      packages:
+      - ros2_jetson_stats
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/ros2_jetson_stats
+      version: 0.0.0
+
+  zed-ros2-wrapper:
+    doc:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/zed-ros2-wrapper
+      version: main
+    release:
+      packages:
+      - zed-ros2-wrapper
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/zed-ros2-wrapper
+      version: 0.0.0
+
 type: distribution
 version: 2
