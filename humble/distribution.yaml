@@ -118,6 +118,7 @@ repositories:
     release:
       packages:
       - ros2_jetson_stats
+      - jtop_services
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/ros2_jetson_stats
