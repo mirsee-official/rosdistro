@@ -24,7 +24,6 @@ repositories:
       url: https://dev.azure.com/mirsee/Thunderbird/_git/mh3_common
       version: main
     status: maintained
-
   mh3_desktop:
     doc:
       type: git
@@ -42,7 +41,6 @@ repositories:
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_desktop
       version: main
     status: maintained
-
   mh3_robot:
     doc:
       type: git
@@ -50,46 +48,51 @@ repositories:
       version: main
     release:
       packages:
-      - mh3_planners
+      - bio_ik
+      - canbus_driver
+      - ethercat_driver
+      - ethercat_driver_ros2
+      - ethercat_generic_cia402_drive
+      - ethercat_generic_slave
+      - ethercat_generic_wrist_slave
+      - ethercat_interface
+      - ethercat_logger
+      - ethercat_manager
+      - ethercat_msgs
+      - gyems_driver
+      - jtop_services
       - mh3_arm_planners
-      - mh3_chest_display
       - mh3_audio
-      - mh3_moveit_config
-      - mh3_hardware_interface
-      - mh3_firmware_update
       - mh3_bringup
+      - mh3_chest_display
+      - mh3_control
+      - mh3_diagnostics
+      - mh3_firmware_update
+      - mh3_hardware_interface
+      - mh3_moveit_config
+      - mh3_navigation
       - mh3_perception
+      - mh3_planners
+      - mh3_recording_manager
+      - mh3_smc
+      - mh3_speech
+      - mh3_task_manager
       - mh3_task_manager_user
       - mh3_teleop
-      - mh3_task_manager
       - roboteq_driver
-      - ethercat_generic_wrist_slave
-      - ethercat_generic_slave
-      - ethercat_generic_cia402_drive
-      - ethercat_driver_ros2
-      - ethercat_manager
-      - ethercat_logger
-      - ethercat_msgs
-      - ethercat_interface
-      - ethercat_driver
-      - third-party/gyems_driver
-      - third-party/bio_ik
-      - third-party/canbus_driver
-      - mh3_recording_manager
-      - mh3_navigation
-      - mh3_diagnostics
-      - mh3_smc
-      - mh3_control
-      - mh3_speech
+      - ros2_jetson_stats
+      - ros_tcp_endpoint
+      - zed_components
+      - zed_ros2
+      - zed_wrapper
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_robot
-      version: 0.0.0
+      version: 0.0.1-1
     source:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_robot
       version: main
     status: maintained
-
 type: distribution
 version: 2
