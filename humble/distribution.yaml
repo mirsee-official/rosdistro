@@ -61,29 +61,37 @@ repositories:
       version: main
     release:
       packages:
-      - mh3_diagnostics
-      - mh3_teleop
-      - mh3_navigation
-      - mh3_smc
-      - mh3_task_manager_user
-      - mh3_control
-      - mh3_task_manager
-      - mh3_bringup
-      - mh3_recording_manager
-      - mh3_perception
-      - mh3_speech
-      - mh3_moveit_config
-      - mh3_chest_display
-      - mh3_firmware_update
-      - mh3_arm_planners
-      - mh3_audio
-      - mh3_hardware_interface
       - mh3_planners
-      - gyems_driver
-      - bio_ik
-      - canbus_driver
+      - mh3_arm_planners
+      - mh3_chest_display
+      - mh3_audio
+      - mh3_moveit_config
+      - mh3_hardware_interface
+      - mh3_firmware_update
+      - mh3_bringup
+      - mh3_perception
+      - mh3_task_manager_user
+      - mh3_teleop
+      - mh3_task_manager
       - roboteq_driver
+      - ethercat_generic_wrist_slave
+      - ethercat_generic_slave
+      - ethercat_generic_cia402_drive
       - ethercat_driver_ros2
+      - ethercat_manager
+      - ethercat_logger
+      - ethercat_msgs
+      - ethercat_interface
+      - ethercat_driver
+      - third-party/gyems_driver
+      - third-party/bio_ik
+      - third-party/canbus_driver
+      - mh3_recording_manager
+      - mh3_navigation
+      - mh3_diagnostics
+      - mh3_smc
+      - mh3_control
+      - mh3_speech
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_robot
