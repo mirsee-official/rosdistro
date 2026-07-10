@@ -40,6 +40,11 @@ repositories:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_simulation
       version: 0.0.0
+    source:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_simulation
+      version: main
+    status: maintained
 
   mh3_desktop:
     doc:
@@ -53,6 +58,11 @@ repositories:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_desktop
       version: 0.0.0
+    source:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_desktop
+      version: main
+    status: maintained
 
   mh3_robot:
     doc:
@@ -96,6 +106,11 @@ repositories:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_robot
       version: 0.0.0
+    source:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_robot
+      version: main
+    status: maintained
 
   ROS-TCP-Endpoint:
     doc:
@@ -109,6 +124,11 @@ repositories:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/ROS-TCP-Endpoint
       version: 0.0.0
+    source:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/ROS-TCP-Endpoint
+      version: mirsee
+    status: maintained
 
   ros2_jetson_stats:
     doc:
@@ -123,6 +143,11 @@ repositories:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/ros2_jetson_stats
       version: 0.0.0
+    source:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/ros2_jetson_stats
+      version: mirsee
+    status: maintained
 
   zed-ros2-wrapper:
     doc:
@@ -138,6 +163,11 @@ repositories:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/zed-ros2-wrapper
       version: 0.0.0
+    source:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/zed-ros2-wrapper
+      version: mirsee
+    status: maintained
 
 type: distribution
 version: 2
