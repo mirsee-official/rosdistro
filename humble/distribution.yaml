@@ -66,7 +66,6 @@ repositories:
     release:
       packages:
       - bio_ik
-      - canbus_driver
       - ethercat_driver
       - ethercat_driver_ros2
       - ethercat_generic_cia402_drive
@@ -80,6 +79,7 @@ repositories:
       - mh3_arm_planners
       - mh3_audio
       - mh3_bringup
+      - mh3_canbus_driver
       - mh3_chest_display
       - mh3_control
       - mh3_diagnostics
@@ -93,13 +93,12 @@ repositories:
       - mh3_smc
       - mh3_speech
       - mh3_task_manager
-      - mh3_task_manager_user
       - mh3_teleop
       - roboteq_driver
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_robot
-      version: 0.0.1-1
+      version: 3.2.0-1
     source:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_robot
