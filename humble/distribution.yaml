@@ -158,5 +158,24 @@ repositories:
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/topic_based_ros2_control
       version: mirsee
     status: maintained
+  zed-ros2-wrapper:
+    doc:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/zed-ros2-wrapper
+      version: mirsee
+    release:
+      packages:
+      - zed_components
+      - zed_ros2
+      - zed_wrapper
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/zed-ros2-wrapper
+      version: 3.2.0-1
+    source:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/zed-ros2-wrapper
+      version: mirsee
+    status: maintained
 type: distribution
 version: 2
