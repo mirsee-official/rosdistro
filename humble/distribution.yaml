@@ -6,6 +6,23 @@ release_platforms:
   ubuntu:
   - jammy
 repositories:
+  ROS-TCP-Endpoint:
+    doc:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/ROS-TCP-Endpoint
+      version: mirsee
+    release:
+      packages:
+      - ros_tcp_endpoint
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/ROS-TCP-Endpoint
+      version: 3.2.0-1
+    source:
+      type: git
+      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/ROS-TCP-Endpoint
+      version: mirsee
+    status: maintained
   mh3_common:
     doc:
       type: git
@@ -126,22 +143,5 @@ repositories:
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/ros2_jetson_stats
       version: mirsee
     status: maintained
-  ROS-TCP-Endpoint:
-    doc:
-      type: git
-      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/ROS-TCP-Endpoint
-      version: mirsee
-    release:
-      packages:
-      - ros_tcp_endpoint
-      tags:   
-        release: release/humble/{package}/{version}
-      url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/ROS-TCP-Endpoint
-      version: 0.0.1
-    source:
-      type: git
-      url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/ROS-TCP-Endpoint
-      version: mirsee
-    status: maintained 
 type: distribution
 version: 2
