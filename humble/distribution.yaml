@@ -87,20 +87,23 @@ repositories:
       - mh3_diagnostics
       - mh3_firmware_update
       - mh3_hardware_interface
+      - mh3_map_gui
       - mh3_moveit_config
       - mh3_navigation
       - mh3_perception
       - mh3_planners
       - mh3_recording_manager
+      - mh3_rest_api
+      - mh3_robot
       - mh3_smc
-      - mh3_speech
       - mh3_task_manager
       - mh3_teleop
+      - mh3_web_test
       - roboteq_driver
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_robot
-      version: 3.2.1-1
+      version: 3.3.0-1
     source:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_robot
