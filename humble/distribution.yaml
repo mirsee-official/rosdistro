@@ -49,11 +49,12 @@ repositories:
       version: main
     release:
       packages:
+      - mh3_desktop
       - mh3_viz
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_desktop
-      version: 3.2.0-1
+      version: 3.3.0-1
     source:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_desktop
