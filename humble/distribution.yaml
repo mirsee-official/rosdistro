@@ -78,6 +78,10 @@ repositories:
       - ethercat_manager
       - ethercat_msgs
       - gyems_driver
+      - isaac_manipulator_interfaces
+      - isaac_ros_mqtt_bridge
+      - isaac_ros_vda5050_nav2_client
+      - isaac_ros_vda5050_nav2_client_bringup
       - mh3_arm_planners
       - mh3_audio
       - mh3_bringup
@@ -91,6 +95,7 @@ repositories:
       - mh3_moveit_config
       - mh3_navigation
       - mh3_perception
+      - mh3_perception_cpp
       - mh3_planners
       - mh3_recording_manager
       - mh3_rest_api
@@ -98,12 +103,14 @@ repositories:
       - mh3_smc
       - mh3_task_manager
       - mh3_teleop
+      - mh3_vda5050_client
       - mh3_web_test
       - roboteq_driver
+      - vda5050_msgs
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_robot
-      version: 3.3.3-1
+      version: 3.4.1-1
     source:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_robot
