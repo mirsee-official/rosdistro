@@ -36,7 +36,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_common
-      version: 3.5.0-3
+      version: 3.5.0-5
     source:
       type: git
       url: https://dev.azure.com/mirsee/Thunderbird/_git/mh3_common
@@ -153,7 +153,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/ros2_jetson_stats
-      version: 3.5.0-2
+      version: 3.5.0-4
     source:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/ros2_jetson_stats
@@ -168,7 +168,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/topic_based_ros2_control
-      version: 3.5.0-2
+      version: 3.5.0-4
     source:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/topic_based_ros2_control
@@ -187,7 +187,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/zed-ros2-wrapper
-      version: 3.5.0-2
+      version: 3.5.0-4
     source:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/zed-ros2-wrapper
