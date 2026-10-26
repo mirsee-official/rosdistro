@@ -107,6 +107,7 @@ repositories:
       - mh3_smc
       - mh3_task_manager
       - mh3_teleop
+      - mh3_uwi
       - mh3_vda5050_client
       - mh3_web_test
       - roboteq_driver
@@ -114,7 +115,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_robot
-      version: 3.5.1-1
+      version: 3.5.2-1
     source:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_robot
