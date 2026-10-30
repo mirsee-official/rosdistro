@@ -1,0 +1,13 @@
+alloy:
+  ubuntu: [alloy]
+grafana:
+  ubuntu: [grafana]
+loki:
+  ubuntu: [loki]
+prometheus:
+  ubuntu: [prometheus]
+prometheus-node-exporter:
+  ubuntu: [prometheus-node-exporter]
+stereolabs-zedlink-duo:
+  ubuntu:
+    jammy: [stereolabs-zedlink-duo]
