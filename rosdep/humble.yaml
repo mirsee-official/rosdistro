@@ -11,3 +11,9 @@ prometheus-node-exporter:
 stereolabs-zedlink-duo:
   ubuntu:
     jammy: [stereolabs-zedlink-duo]
+# Every package the ZED SDK installer (5.1.2, L4T 36.4) checks for when run as
+# root with `-- silent skip_python`, so it never calls apt itself. Keep in step
+# with DEPENDENCIES in mh3_perception/system/scripts/zed-sdk.
+zed-sdk-dependencies:
+  ubuntu:
+    jammy: [libjpeg-turbo8, libturbojpeg, libusb-1.0-0, libusb-1.0-0-dev, libopenblas-dev, libarchive-dev, libv4l-0, curl, unzip, zlib1g, mesa-utils, libpng-dev, libglew-dev, freeglut3-dev, qtbase5-dev, qtchooser, qt5-qmake, qtbase5-dev-tools, libqt5opengl5, libqt5svg5, lsb-release, wget, less, udev, sudo, apt-transport-https, file, zstd]
