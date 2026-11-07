@@ -67,7 +67,6 @@ repositories:
       version: main
     release:
       packages:
-      - bio_ik
       - cosmos3_test
       - ethercat_driver
       - ethercat_driver_ros2
@@ -92,11 +91,12 @@ repositories:
       - mh3_chest_display
       - mh3_control
       - mh3_diagnostics
+      - mh3_features_config
       - mh3_firmware_update
       - mh3_fsm
+      - mh3_grasp_gen
       - mh3_hardware_interface
       - mh3_map_gui
-      - mh3_moveit_config
       - mh3_mqtt_api
       - mh3_navigation
       - mh3_perception
@@ -115,7 +115,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://mirsee@dev.azure.com/mirsee/Thunderbird_Release/_git/mh3_robot
-      version: 3.5.2-1
+      version: 3.6.0-1
     source:
       type: git
       url: git@ssh.dev.azure.com:v3/mirsee/ThunderBird/mh3_robot
