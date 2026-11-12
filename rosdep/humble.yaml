@@ -2,6 +2,14 @@ alloy:
   ubuntu: [alloy]
 grafana:
   ubuntu: [grafana]
+# Repackaged NVIDIA cuMotion, built and published by mirsee_rebundle.
+# libcumotion-dev for <build_depend>/<depend>; libcumotion1 for <exec_depend>.
+libcumotion-dev:
+  ubuntu:
+    jammy: [libcumotion-dev]
+libcumotion1:
+  ubuntu:
+    jammy: [libcumotion1]
 loki:
   ubuntu: [loki]
 prometheus:
