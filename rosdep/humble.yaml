@@ -12,6 +12,19 @@ libcumotion1:
     jammy: [libcumotion1]
 loki:
   ubuntu: [loki]
+# IgH EtherCAT master, built from Mirsee's ethercat fork (debian/) and published
+# to the internal jammy apt repo. mirsee-ethercat-dev (libethercat, ecrt.h,
+# pkg-config) for <build_depend>/<depend>; mirsee-ethercat (tool, library,
+# ethercat.service; pulls in mirsee-ethercat-dkms) for <exec_depend>.
+mirsee-ethercat:
+  ubuntu:
+    jammy: [mirsee-ethercat]
+mirsee-ethercat-dev:
+  ubuntu:
+    jammy: [mirsee-ethercat-dev]
+mirsee-ethercat-dkms:
+  ubuntu:
+    jammy: [mirsee-ethercat-dkms]
 prometheus:
   ubuntu: [prometheus]
 prometheus-node-exporter:
